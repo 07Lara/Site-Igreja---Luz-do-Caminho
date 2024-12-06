@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    font-family: "Inria Serif", serif;
+    line-height:1.8;
+}
+.logo img{
+    width:100px;
+    height:auto;
+    margin-top:-10px;
+    float:left;
+    margin-right:20px;
+}
+.logo{
+    float:left;
+    margin-right:20px;
+}
+header{
+    background-color:#002244;
+    padding:10px 20px;
+}
+header nav ul{
+    display:flex;
+    justify-content:flex-end;
+    list-style:none;
+    gap:20px;
+}
+header nav ul li{
+    display:inline-block;
+    font-size:14px;
+    padding-right:20px;
+}
+header nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+.capa{
+   position:relative;
+   text-align:center;
+   color:white;
+}
+.capa h1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size:100px;
+    margin:0;
+}
+.capa .horarios{
+    position:absolute;
+    bottom:20px;
+    left:50%;
+    transform:translate(-50%);
+    display:flex;
+    gap:50px;
+    font-size:1.2rem;
+}
+.capa img{
+    margin-top:-20px;
+    display:block;
+    width:100%;
+    height:auto;
+}
+.aviso{
+    text-align: center;
+    background-color: #444;
+    color: white;
+    margin:20px auto;
+    max-width:100%;
+}
+.aviso img{
+    margin-top:-20px;
+    display:block;
+    width:100%;
+    height:auto;
+}
+.aviso p{
+    margin:0;
+    padding:10px;
+    font-size:16px;
+    line-height:1.5;
+} 
+.map{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding:20px;
+    background-color: #002244;
+    color:white;
+    margin-top:0;
+}
+.map article{
+    flex:1;
+    max-width:45%;
+    text-align:center;
+}
+.map iframe{
+    width:100%;
+    max-width:300px;
+    height:auto;
+}
+.map .saiba{
+    padding:10px 20px;
+    background-color:#fff;
+    color:#002244;
+}
+.saiba{
+    margin:20px auto;
+    padding:25px;
+    background-color:#f5f5f5;
+    text-align:center;
+    border: 2px solid black;
+    border-radius:1px;
+    max-width:600px;
+    text-decoration:none;
+    color:inherit;
+}
+.saiba a{
+    background-color:#002244;
+    padding:10px 20px;
+    font-weight:bold;
+    border-radius:5px;
+    display:inline-block;
+    transition:background-color 0.3s ease;
+}
+footer{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:10px 20px;
+}
+footer .redes{
+    margin-top:10px;
+}
+
+footer .redes a img {
+    width:24px;
+    margin:0 5px;
+}
+
+

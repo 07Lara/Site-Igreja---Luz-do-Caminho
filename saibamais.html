@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Igreja Luz do Caminho - Saiba Mais</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="imagens/logo.png" alt="Logo Igreja Luz do Caminho">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Saiba Mais sobre a Igreja Luz do Caminho</h1>
+            <p>Descubra mais sobre nossa missão, nossos ministérios, eventos e como você pode contribuir para nossa causa.</p>
+        </section>
+
+        <!-- Acordeão com informações -->
+        <section class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-button">História da Igreja</button>
+                <div class="accordion-content">
+                    <p>A Igreja Luz do Caminho foi fundada em 2001 com o propósito de levar a palavra de Deus e acolher a comunidade. Ao longo dos anos, tem sido um lugar de transformação espiritual e apoio social, ajudando aqueles que precisam e compartilhando o amor de Cristo.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-button">Ministérios</button>
+                <div class="accordion-content">
+                    <p>Nosso ministério é dividido em diversas áreas, como Ministério de Música, Ministério Infantil, Ministério de Jovens, entre outros. Todos são chamados a servir e se envolver nas atividades da igreja para edificar a comunidade.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-button">Eventos Especiais</button>
+                <div class="accordion-content">
+                    <p>Realizamos eventos especiais ao longo do ano, como conferências, cultos temáticos, festas comunitárias e celebrações de datas especiais. Fique atento ao nosso calendário de eventos para participar!</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-button">Doações</button>
+                <div class="accordion-content">
+                    <p>Você pode contribuir com a nossa missão através de doações financeiras, alimentos ou até mesmo tempo voluntário. Saiba como ajudar visitando nossa seção de doações.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Igreja Luz do Caminho. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Script para controlar o acordeão
+        const buttons = document.querySelectorAll('.accordion-button');
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,303 @@
+/* css Eventos*/
+
+.eventos{
+    background-color:#002244;
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+.eventos h1{
+    font-size:2rem;
+    margin-bottom:20px;
+}
+.lista-eventos ul{
+    list-style:none;
+    padding:0;
+}
+.lista-eventos li{
+    font-size:1.2rem;
+    margin:10px 0;
+}
+.lista-eventos li strong{
+    font-weight:bold;
+}
+
+
+/*css de Doações*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #002244;
+    padding: 10px 20px;
+}
+header .logo img{
+    width: 80px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+}
+header nav ul li{
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.doacoes{
+    background-color: #002244;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+.doacoes h1{
+    font-size:36px;
+    margin-bottom:20px;
+}
+.doacoes p{
+    font-size:18px;
+    margin-bottom:20px;
+}
+table{
+    width:80%;
+    margin:20px auto;
+    border-collapse: collapse;
+    background-color:white;
+    color: #333;
+}
+table th, table td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+table th{
+    background-color:goldenrod;
+}
+
+.botao-doacao{
+    display:inline-block;
+    padding:10px 20px;
+    background-color:#fff;
+    color:#002244;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    margin-top:20px;
+    transition:background-color 0.3s ease;
+}
+.botao-doacao:hover{
+    background-color:royalblue;
+    color:white;
+}
+footer{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:10px 20px;
+}
+footer .redes{
+    margin-top:10px;
+}
+footer .redes a img{
+    width:24px;
+    margin:0 5px;
+}
+
+
+/* css do Grupos*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #002244;
+    padding:40px 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    padding: 20px;
+}
+.informacoes {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.informacoes h1 {
+    font-size: 2rem;
+    color: #002244;
+}
+
+.informacoes p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.grupos {
+    margin-top: 20px;
+}
+
+.grupos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.grupos table th, .grupos table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.grupos table th {
+    background-color: #002244;
+    color: white;
+}
+
+.grupos table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.grupos table tr:hover {
+    background-color: goldenrod;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer .redes {
+    margin-top: 10px;
+}
+
+footer .redes a img {
+    width: 24px;
+    margin: 0 5px;
+}
+
+
+/* css do saiba mais*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a fonte e estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #002244;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content .logo img {
+    width: 120px;
+    height: auto;
+}
+
+/* Seção principal de introdução */
+main {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    color: #002244;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo do acordeão */
+.accordion {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    background-color: #002244;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #0055a5;
+}
+
+.accordion-content {
+    display: none;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
